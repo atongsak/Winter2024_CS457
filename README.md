@@ -30,8 +30,8 @@ In celebration of the Year of the Dragon, everyone got to implement whatever sha
 
 <img src="readme/proj6.png" width=500px>
 
-# Geometry Shaders
+## Geometry Shaders
 
 <img src="readme/proj7.gif" width=500px>
 
-# Final Project - Skin Shader (WIP)
+## Final Project - Skin Shader (WIP)
