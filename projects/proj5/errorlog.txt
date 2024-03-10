@@ -1,0 +1,3 @@
+
+0(41) : error C0159: invalid char 'r' in integer constant suffix
+
