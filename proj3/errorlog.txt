@@ -1,0 +1,3 @@
+
+0(52) : error C1503: undefined variable "LightPosition"
+

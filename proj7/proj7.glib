@@ -1,0 +1,26 @@
+## OpenGL GLIB
+
+Perspective 75
+LookAt -35 55 40  0 0 0  0 1 0
+
+Vertex   quantsph.vert
+Geometry quantsph.geom
+Fragment quantsph.frag
+Program  QuantSph			\
+	uLevel <0 3 5>			\
+	uDiam <0.01 0.5 1.0> 	\
+	uQuantize <0.5 2. 6.>	\
+	uKa <0. 0.1 1.0>		\
+	uKd <0. 0.6 1.0>			\
+	uKs <0. 0.3 1.0>			\
+	uShininess <0.5 10. 50.> 		\
+	uLightX <-20. 0. 20.>       	\
+	uLightY <-20. 10. 20.>      	\
+	uLightZ <-20. 0. 20.>     		\
+	uColor {1. 0.7 0. 1.}         	\
+	uSpecularColor {1. 1. 1. 1.}    \
+	uRedDepth <0. 34.7561 100.>			\
+	uBlueDepth <0. 82.9268 100.>		\
+	uUseChromaDepth <0. 1.>
+
+Obj dragon138.obj
