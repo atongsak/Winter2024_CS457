@@ -4,27 +4,27 @@ Here are all my projects from CS 457 - Computer Graphics Shaders with Dr. Mike B
 
 Check out my pdfs folder to read about my approach to each project!
 
-# Step- and Blended-edged Elliptical Dots
+## Step- and Blended-edged Elliptical Dots
 
 <img src="readme/proj1.gif" width=500px>
 
-# Noisy Elliptical Dots
+## Noisy Elliptical Dots
 
 <img src="readme/proj2.gif" width=500px>
 
-# Displacement Mapping, Bump Mapping, and Lighting
+## Displacement Mapping, Bump Mapping, and Lighting
 
 <img src="readme/proj3.gif" width=500px>
 
-# Cube Mapping Reflective and Refractive Bump-mapped Surfaces
+## Cube Mapping Reflective and Refractive Bump-mapped Surfaces
 
 <img src="readme/proj4.gif" width=500px>
 
-# Image Manipulation
+## Image Manipulation
 
 <img src="readme/proj5.gif" width=500px>
 
-# The Dragon Menagerie Project 
+## The Dragon Menagerie Project 
 
 In celebration of the Year of the Dragon, everyone got to implement whatever shader they wanted on a dragon OBJ. I made a chromatic aberration shader that gives the dragon a diamondesque look.
 
