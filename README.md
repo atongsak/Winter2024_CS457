@@ -1,6 +1,6 @@
 # CS 457 - Computer Graphics Shaders
 
-Here are all my projects from CS 457 - Computer Graphics Shaders with Dr. Mike Bailey. I learned about the different types of shaders (vertex, tessellation, geometry, fragment, compute..) and implemented a variety of shader tricks.
+Here are all my projects from CS 457 - Computer Graphics Shaders with Dr. Mike Bailey. I learned about the different types of shaders (vertex, tessellation, geometry, fragment, compute..) and implemented a variety of shader tricks in C++ with OpenGL and GLSL.
 
 Check out my pdfs folder to read about my approach to each project!
 
