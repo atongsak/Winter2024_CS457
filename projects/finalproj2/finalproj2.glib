@@ -1,0 +1,29 @@
+##OpenGL GLIB
+Perspective 70
+LookAt 0 0 3 0 0 0 0 1 0
+
+Texture2D 6 subsurface.bmp
+Texture2D 7 subsurfaceheight.bmp
+
+Vertex pattern.vert
+Fragment pattern.frag
+Program Pattern \
+	uDoElevations <false> \
+	uDoLighting <false> \
+	uLightX <-10. 0. 10.> \
+	uLightY <-10. 0. 10.> \
+	uLightZ < 1. 10. 10.> \
+	uKa <0. 0.2 1.0> \
+	uKd <0. 0.9 1.0> \
+	uSeaLevel <0. 0.25 1.0> \
+	uHeightScale <0. 0.25 0.50> \
+	uNormalScale <0. 0.04 0.10> \
+	uColorUnit 6 \
+	uDispUnit 7  \
+	uKa <0. 0.1 1.0>		\
+	uKd <0. 0.6 1.0>			\
+	uKs <0. 0.3 1.0>			\
+	uShininess <0.5 10. 50.>		
+	
+Color 1. .3 0.
+Sphere 1. 600 600

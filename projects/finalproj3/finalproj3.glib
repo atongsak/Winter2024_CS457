@@ -1,0 +1,21 @@
+##OpenGL GLIB
+Perspective 70
+LookAt 0 0 3 0 0 0 0 1 0
+
+Texture2D 6 subsurface.bmp
+Texture2D 7 subsurfaceheight.bmp
+Texture2D 8 normal.bmp
+
+Vertex pattern.vert
+Fragment pattern.frag
+Program Pattern \
+	uKa <0. 0.2 1.0> \
+	uKd <0. 0.9 1.0> \
+	uKs <0. 0.2 1.0>			\
+	uShininess <0.5 22. 50.>	\
+	uFreq <0.5 10. 15.> \
+	Color_Map 6 \
+	Normal_Map 8
+	
+Color 1. .3 0.
+Sphere 1. 600 600

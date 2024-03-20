@@ -1,0 +1,5 @@
+
+0(6) : error C1038: declaration of "uKa" conflicts with previous declaration at 0(3)
+0(42) : error C1503: undefined variable "uKs"
+0(42) : error C1503: undefined variable "mySpecularColor"
+

@@ -1,0 +1,69 @@
+## OpenGL GLIB
+
+Perspective 30
+LookAt 0 0 40  0 0 0  0 1 0
+
+Texture2D  8  albedo.bmp
+
+Vertex texture.vert
+Fragment texture.frag
+
+Program Texture TexUnit 5
+
+Texture2D 5 px.bmp
+QuadYZ 70. 70. 120 120
+Texture2D 5 nx.bmp
+QuadYZ -70. 70. 120 120
+Texture2D 5 py.bmp
+QuadXZ 70. 70. 120 120
+Texture2D 5 ny.bmp
+QuadXZ -70. 70. 120 120
+Texture2D 5 pz.bmp
+QuadXY 70. 70. 120 120
+Texture2D 5 nz.bmp
+QuadXY -70. 70. 120 120
+
+CubeMap 5 px.bmp nx.bmp py.bmp ny.bmp pz.bmp nz.bmp
+
+Program SpecularCubeMap TexUnit 6
+
+Texture2D 6 spec_px.bmp
+QuadYZ 70. 70. 120 120
+Texture2D 6 spec_nx.bmp
+QuadYZ -70. 70. 120 120
+Texture2D 6 spec_py.bmp
+QuadXZ 70. 70. 120 120
+Texture2D 6 spec_ny.bmp
+QuadXZ -70. 70. 120 120
+Texture2D 6 spec_pz.bmp
+QuadXY 70. 70. 120 120
+Texture2D 6 spec_nz.bmp
+QuadXY -70. 70. 120 120
+
+CubeMap 6 spec_px.bmp spec_nx.bmp spec_py.bmp spec_ny.bmp spec_pz.bmp spec_nz.bmp
+
+Program DiffuseCubeMap TexUnit 7
+
+Texture2D 7 diff_px.bmp
+QuadYZ 70. 70. 120 120
+Texture2D 7 diff_nx.bmp
+QuadYZ -70. 70. 120 120
+Texture2D 7 diff_py.bmp
+QuadXZ 70. 70. 120 120
+Texture2D 7 diff_ny.bmp
+QuadXZ -70. 70. 120 120
+Texture2D 7 diff_pz.bmp
+QuadXY 70. 70. 120 120
+Texture2D 7 diff_nz.bmp
+QuadXY -70. 70. 120 120
+
+CubeMap 7 diff_px.bmp diff_nx.bmp diff_py.bmp diff_ny.bmp diff_pz.bmp diff_nz.bmp
+
+Vertex   pattern.vert
+Fragment pattern.frag
+Program  Pattern			\
+	uNoiseAmp <0. 0. .5>         \
+	uNoiseFreq <0. .1 100.>     \
+	uTexUnitA 8 		
+
+Sphere 6 500 500

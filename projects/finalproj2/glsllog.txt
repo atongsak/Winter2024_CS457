@@ -1,0 +1,5 @@
+
+0(54) : error C1503: undefined variable "myColor"
+0(71) : error C1503: undefined variable "myColor"
+0(80) : error C1503: undefined variable "myColor"
+
